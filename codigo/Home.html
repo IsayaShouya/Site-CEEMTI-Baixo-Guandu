@@ -1,16 +1,123 @@
 <DOCTYPE html>
   <html lang = "pt br">
     <head>
-      <style>
         <meta name="google-site-verification" content="i552IuPfqTIfBqPtWuGHejRy1QLq0bRt8nubnKasKG0"> <!-- indica que o site é verificado e seguro -->
         <meta charset="UTF-8"> <!-- Permite uso de caracteres especias --> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Permite compactibilidade abrangente -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- analisa a largura do dispositivo e a usa como a largura da página., ou seja torna o site mais responsivo -->
         <link rel="icon" href="https://isayashouya.github.io/Site-CEEMTI-Baixo-Guandu/Logo-Escola.ico" type="image/png"> <!-- icone do site = imagem -->
         <title> Estudante, seja bem vindo </title>
+      <style>
+
+			  body{
+		                margin: 0 auto;]
+            			}
+        ul{
+		                	text-align: center;
+		                	text-size: 18px;
+		                	}
+        header{
+	                  flex-direction: column;
+	                }
+        li{
+                		display:inline-block;
+                		margin: 20px;
+            			}
+        a{
+                		color: white;
+            			}
+        a:hover{
+                		border: 2px solid #03fc45;
+                		padding: 10px;
+                		border-radius: 15px;
+                		transition: 0.3s all;
+            			}
+		
+			@media screen and (max-width: 1200px){
+				header{
+	                    		flex-direction: column;
+	                		}
+         ul{
+		                	text-align: center;
+		                	text-size: 13px;
+		                	}
+         a:hover{
+                		border: 2px solid #03fc45;
+                		padding: 8px;
+                		border-radius: 15px;
+                		transition: 0.3s all;
+            			}
+			}
+			@media screen and (max-width: 760px){
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                ul{
+		                	text-align: center;
+		                	text-size: 10px;
+		                	}
+                    a:hover{
+                  		border: 2px solid #03fc45;
+                  		padding: 7px;
+                  		border-radius: 15px;
+                  		transition: 0.3s all;
+              			}
+      }
+			@media screen and (max-width: 200px){
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                ul{
+		                	text-align: center;
+		                	text-size: 10px;
+		                	}
+                    a:hover{
+                  		border: 2px solid #03fc45;
+                  		padding: 6px;
+                  		border-radius: 15px;
+                  		transition: 0.3s all;
+              			}
+      }
+			@media screen and (max-width: 100px){
+	                	header{
+	                    		flex-direction: column;
+	                		}
+		                ul{
+		                	text-align: center;
+		                	text-size: 6px;
+		                	}
+                    a:hover{
+                  		border: 2px solid #03fc45;
+                  		padding: 5px;
+                  		border-radius: 15px;
+                  		transition: 0.3s all;
+              			}
+      }
       </style>
     </head>
     <body>
-      
+      <header> <!-- Cabeçalho do site -->
+			<h1> Este é o site da Escola CEEMTI Baixo Guandu </h1>  <!-- Titulo -->
+			<br> <!-- Break, quebra uma linha -->
+			<nav> <!-- linka esta pagina do site a outos sites ou outras áreas da página -->
+				<ul> <!-- lista não ordenada -->
+					<li> <!-- Lista -->
+						<a href="GoogleSaladeAula.html"> Google Sala de Aula  </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+					</li> <!-- Fechando uma Lista -->
+					<li> <!-- Lista -->
+						<a href="Cadastrar.html"> Cadastre-se </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+					</li> <!-- Fechando uma Lista -->
+					<li> <!-- Lista -->
+						<a href="Logar.html"> Login </a>  <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+					</li> <!-- Fechando uma Lista -->
+					<li> <!-- Lista -->
+						<a href="UltimasNoticias.html"> Ultimas Noticias  </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+          </li> <!-- Fechando uma Lista -->
+					<li> <!-- Lista -->
+            <a href="Desenvolvedores.html"> Desenvolvedores </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+					</li> <!-- Fechando uma Lista -->
+				</ul> <!-- Fechando uma lista não ordenada -->
+			</nav> <!-- linka esta pagina do site a outos sites ou outras áreas da página -->
+		</header> <!-- Fecha o Cabeçalho do site -->
     </body>
   </html>
